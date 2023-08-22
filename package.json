@@ -1,0 +1,16 @@
+{
+  "name": "book-search-engine",
+  "version": "1.0.0",
+  "description": "A simple book search engine.",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
