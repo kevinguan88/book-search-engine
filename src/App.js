@@ -21,7 +21,7 @@ function App() {
 
     event.preventDefault();
 
-    axios.get("https://www.googleapis.com/books/v1/volumes?q=" + book + "&key=" + apiKey)
+    axios.get("https://www.googleapis.com/books/v1/volumes?q=" + book + "&key=" + apiKey + "&maxResults=40")
       .then(result => {
         console.log(result.data.items);
         setResult(result.data.items);
